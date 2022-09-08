@@ -1,0 +1,24 @@
+h1 {
+    color: blue;
+    size: 24px;
+}
+h2 {
+    color: #0000ff;
+    size: 20px;
+}
+h3 {
+    color: teal;
+    size: 16px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+p {
+    color: #4D4D4D;
+}
+.biem {
+    font-style: italic;
+}
+p {
+    color: #afafaf;
+}
