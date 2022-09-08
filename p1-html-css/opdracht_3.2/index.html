@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>Voornaam</label>
+        <input type="text" pattern="[a-zA-Z]">
+        <br>
+        <label>Achternaam</label>
+        <input type="text" pattern="[a-zA-Z]">
+        <br>
+        <br>
+        <label>Geslacht:</label>
+        <input type="radio" name="Geslacht" id="Man" checked="checked">
+        <label for="Man">Man</label>
+        <input type="radio" name="Geslacht" id="Vrouw">
+        <label for="Vrouw">Vrouw</label>
+        <br>
+        <br>
+        <label>Straat met Huisnummer</label>
+        <input type="text">
+        <br>
+        <label>Postcode</label>
+        <input type="text">
+        <br>
+        <label>Stad</label>
+        <input type="text">
+        <br>
+        <label>Land</label>
+        <input type="text">
+        <br>
+        <label>BSN-nummer</label>
+        <input type="text" min="000000000" max="999999999">
+        <br>
+        <label>Vakantieland</label>
+        <input type="text">
+        <br>
+        <br>
+        <label>Datum van vertrek</label>
+        <input type="date" name="Datum Vertrek" id="DatumVertrek" min="2022-09-08">
+        <br>
+        <label>Datum van terugkomst</label>
+        <input type="date" name="Datum terugkomst" id="DatumTerugkomst">
+        <br>
+        <br>
+        <label>Aantal reisgenoten (Max 4 personen)</label>
+        <input type="number" name="maxpersoon" id="maxpersoon" min="0" max="4">
+        <br>
+        <br>
+        <button type="summit">Boek nu</button>
+        <br>
+        <br>
+        <label>E-mail</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label>Wachtwoord</label>
+        <input type="password" name="Wachtwoord" id="Wachtwoord">
+    </form>
+</body>
+</html>
