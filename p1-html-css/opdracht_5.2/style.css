@@ -72,7 +72,7 @@ h2 {
 .block {
     display: flex;
     flex-flow: column;
-    padding: 100px;
+    padding: 200px;
 }
 
 .flex p {
