@@ -1,24 +1,26 @@
 h1 {
+    font-size: 24px;
     color: blue;
-    size: 24px;
+    font-style: italic;
+    font-weight: bold;
 }
 h2 {
+    font-size: 20px;
     color: #0000ff;
-    size: 20px;
+    font-weight: bold;
 }
 h3 {
+    font-size: 16px;
     color: teal;
-    size: 16px;
-}
-h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
 }
 p {
     color: #4D4D4D;
 }
-.biem {
-    font-style: italic;
+a {
+    color: #8A2BE2;
+    text-decoration: none;
 }
-p {
-    color: #afafaf;
+.dik {
+    font-weight: bold;
 }
