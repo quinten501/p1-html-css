@@ -8,63 +8,77 @@
 </head>
 <body>
     <form>
-        <label>Voornaam</label>
-        <input type="text" pattern="[a-zA-Z]">
+        <label>Voornaam
+        <input type="text" pattern="[a-zA-Z]" name="firstname" id="firstname">
+        </label>
         <br>
-        <label>Achternaam</label>
-        <input type="text" pattern="[a-zA-Z]">
+        <label>Achternaam
+        <input type="text" pattern="[a-zA-Z]" name="lastname" id="lastname">
+        </label>
         <br>
         <br>
-        <label>Geslacht:</label>
+        <label>Geslacht:
         <input type="radio" name="sex" id="men" checked="checked">
         <label for="Man">Man</label>
         <input type="radio" name="sex" id="women">
         <label for="Vrouw">Vrouw</label>
+        </label>
         <br>
         <br>
-        <label>Straat met Huisnummer</label>
-        <input type="text">
+        <label>Straat met Huisnummer
+        <input type="text" name="address" id="address">
+        </label>
         <br>
-        <label>Postcode</label>
-        <input type="text">
+        <label>Postcode
+        <input type="text" name="postalcode" id="postalcode">
+        </label>
         <br>
-        <label>Stad</label>
-        <input type="text">
+        <label>Stad
+        <input type="text" name="city" id="city">
+        </label>
         <br>
-        <label>Land</label>
-        <input type="text">
+        <label>Land
+        <input type="text" name="country" id="country">
+        </label>
         <br>
-        <label>BSN-nummer</label>
-        <input type="text" min="000000000" max="999999999">
+        <label>BSN-nummer
+        <input type="text" min="000000000" max="999999999" name="socialsecuritynumber" id="socialsecuritynumber">
+        </label>
         <br>
-        <label>Vakantieland</label>
+        <label name="destination" id="destination">Vakantieland
         <select>
             <option>Frankrijk</option>
             <option>Duitsland</option>
             <option>Monaco</option>
             <option>België</option>
         </select>
+        </label>
         <br>
         <br>
-        <label>Datum van vertrek</label>
+        <label>Datum van vertrek
         <input type="date" name="dateofdeparture" id="dateofdeparture" min="2022-09-08">
+        </label>
         <br>
-        <label>Datum van terugkomst</label>
+        <label>Datum van terugkomst
         <input type="date" name="dateofreturn" id="dateofreturn">
+        </label>
         <br>
         <br>
-        <label>Aantal reisgenoten (Max 4 personen)</label>
+        <label>Aantal reisgenoten (Max 4 personen)
         <input type="number" name="maxpersoon" id="maxpersoon" min="0" max="4">
+        </label>
         <br>
         <br>
-        <button type="submit">Boek nu</button>
+        <button type="submit" name="submit" id="submit">Boek nu</button>
         <br>
         <br>
-        <label>E-mail</label>
+        <label>E-mail
         <input type="email" name="email" id="email">
+        </label>
         <br>
-        <label>Wachtwoord</label>
+        <label>Wachtwoord
         <input type="password" name="password" id="password">
+        </label>
     </form>
 </body>
 </html>
