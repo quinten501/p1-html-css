@@ -8,77 +8,59 @@
 </head>
 <body>
     <form>
-        <label>Voornaam
-        <input type="text" pattern="[a-zA-Z]" name="firstname" id="firstname">
-        </label>
+        <label for="firstname">Voornaam</label>
+        <input type="text" pattern="[a-zA-Z]" name="firstname" id="firstname" required>
         <br>
-        <label>Achternaam
-        <input type="text" pattern="[a-zA-Z]" name="lastname" id="lastname">
-        </label>
+        <label for="lastname">Achternaam</label>
+        <input type="text" pattern="[a-zA-Z]" name="lastname" id="lastname" required>
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <label for="password">Wachtwoord</label>
+        <input type="password" name="password" id="password" required>
         <br>
         <br>
-        <label>Geslacht:
+        <label for="sex">Geslacht:</label>
         <input type="radio" name="sex" id="men" checked="checked">
         <label for="Man">Man</label>
         <input type="radio" name="sex" id="women">
         <label for="Vrouw">Vrouw</label>
-        </label>
         <br>
         <br>
-        <label>Straat met Huisnummer
-        <input type="text" name="address" id="address">
-        </label>
+        <label for="address">Straat met Huisnummer</label>
+        <input type="text" name="address" id="address" required>
         <br>
-        <label>Postcode
-        <input type="text" name="postalcode" id="postalcode">
-        </label>
+        <label for="postalcode">Postcode</label>
+        <input type="text" name="postalcode" id="postalcode" required>
         <br>
-        <label>Stad
-        <input type="text" name="city" id="city">
-        </label>
+        <label for="city">Stad</label>
+        <input type="text" name="city" id="city" required>
         <br>
-        <label>Land
-        <input type="text" name="country" id="country">
-        </label>
+        <label for="country">Land</label>
+        <input type="text" name="country" id="country" required>
         <br>
-        <label>BSN-nummer
-        <input type="text" min="000000000" max="999999999" name="socialsecuritynumber" id="socialsecuritynumber">
-        </label>
+        <label for="bsn-nummer">BSN-nummer</label>
+        <input type="text" min="000000000" max="999999999" name="socialsecuritynumber" id="socialsecuritynumber" required>
         <br>
-        <label name="destination" id="destination">Vakantieland
+        <label for="destination" name="destination" id="destination">Vakantieland</label>
         <select>
             <option>Frankrijk</option>
             <option>Duitsland</option>
             <option>Monaco</option>
             <option>België</option>
         </select>
-        </label>
         <br>
+        <label for="dateofdeparture">Datum van vertrek</label>
+        <input type="date" name="dateofdeparture" id="dateofdeparture" min="2022-09-08" required>
         <br>
-        <label>Datum van vertrek
-        <input type="date" name="dateofdeparture" id="dateofdeparture" min="2022-09-08">
-        </label>
+        <label for="dateofreturn">Datum van terugkomst</label>
+        <input type="date" name="dateofreturn" id="dateofreturn" required>
         <br>
-        <label>Datum van terugkomst
-        <input type="date" name="dateofreturn" id="dateofreturn">
-        </label>
-        <br>
-        <br>
-        <label>Aantal reisgenoten (Max 4 personen)
-        <input type="number" name="maxpersoon" id="maxpersoon" min="0" max="4">
-        </label>
-        <br>
+        <label for="maxperson">Aantal reisgenoten (Max 4 personen)</label>
+        <input type="number" name="maxperson" id="maxperson" min="0" max="4" required>
         <br>
         <button type="submit" name="submit" id="submit">Boek nu</button>
-        <br>
-        <br>
-        <label>E-mail
-        <input type="email" name="email" id="email">
-        </label>
-        <br>
-        <label>Wachtwoord
-        <input type="password" name="password" id="password">
-        </label>
     </form>
 </body>
 </html>
