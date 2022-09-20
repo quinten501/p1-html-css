@@ -37,3 +37,7 @@ nav a {
 nav img {
   width: 5vw;
 }
+section {
+  height: 100%;
+  width: 100%;
+}
