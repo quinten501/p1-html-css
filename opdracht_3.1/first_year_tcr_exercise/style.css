@@ -41,6 +41,38 @@ nav a {
 nav img {
   width: 5vw;
 }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 10vw;
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #00a8c7;
+  padding: 0.8rem 1rem;
+  display: block;
+  text-align: left;
+  
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown {
+  color: black;
+  z-index: 1;
+  padding: 1rem 0 1rem 0;
+}
+
+.dropdown:hover {
+  background-color: white;
+  
+}
+
+.dropdown:hover .dropdownbtn {
+  color:#00a8c7;
+}
 section {
   height: 100vh;
   width: 100vw;
