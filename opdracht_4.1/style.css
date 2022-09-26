@@ -32,6 +32,9 @@ header {
     width: 100vw;
     height: 33vh;
     background-image: url(./img/Game\ Background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 header p {
     color: rgb(255, 255, 255);
