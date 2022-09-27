@@ -1,0 +1,24 @@
+* {
+    margin: ;
+}
+nav a {
+    position: relative;
+    text-decoration: none;
+    display: flex;
+}
+ul {
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+}
+.one {
+
+}
+.two {
+    display: flex;
+    gap: 10px;
+}
+.three {
+
+}
