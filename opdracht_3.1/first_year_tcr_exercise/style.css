@@ -15,12 +15,13 @@ body {
 }
 nav {
   display: flex;
-  width: 100vw;
+  width: 98.9vw;
   padding: 2rem;
   min-height: 10vh;
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
+  padding-right: 50px;
   background: #00a8c7;
   justify-content: space-between;
   position: fixed;
@@ -41,45 +42,52 @@ nav a {
 nav img {
   width: 5vw;
 }
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 10vw;
-  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
-  z-index: 1;
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.dropdown-content a {
+
+nav ul li {
+  list-style: none;
+  padding: 4px;
+  position: relative;
+  display: block;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 43px 10px;
+}
+
+nav ul li a:hover {
+  background: white;
   color: #00a8c7;
-  padding: 0.8rem 1rem;
-  display: block;
-  text-align: left;
-  
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.dropdown {
-  color: black;
-  z-index: 1;
-  padding: 1rem 0 1rem 0;
+  padding: 4px 10px;
 }
 
-.dropdown:hover {
-  background-color: white;
-  
+nav ul li ul {
+  display: none;
 }
 
-.dropdown:hover .dropdownbtn {
-  color:#00a8c7;
+nav ul li:hover ul {
+  display: block;
+  position: absolute;
+  margin-top: 43px;
+  background: #00a8c7;
+  width: 100%;
+  padding: 10px 2px;
+  box-shadow: 0px 20px 100px 0px rgba(0, 0, 0, 0.5);
 }
 section {
   height: 100vh;
-  width: 100vw;
+  width: 98.9vw;
 }
 footer {
   display: flex;
-  width: 100vw;
+  width: 98.zvw;
   padding: 2rem;
   min-width: 10vh;
   margin: auto;
@@ -94,7 +102,7 @@ h1,h2,h3,h4,h5,h6 {
   background-image: url("./img/hackerman.jpg");
   background-size: cover;
   height: 100vh;
-  width: 100vw;
+  width: 99vw;
   background-repeat: no-repeat;
   padding-top: 50rem;
   text-align: center;
