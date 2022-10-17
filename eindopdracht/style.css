@@ -12,18 +12,23 @@ body{
     font-size: 2rem;
 }
 
+h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Poppins', sans-serif;
+}
+
 nav {
+    display: flex;
     background-color: #131c27;
     font-family: 'Pattaya', sans-serif;
+    height: 7vh;
+
 }
 nav ul {
     display: flex;
-    align-items: center;
     list-style-type: none;
     justify-content: flex-end;
 }
 nav li {
-    justify-content: flex-end;
     padding: 0 1rem 0 2rem;
 }
 nav a {
@@ -32,12 +37,34 @@ nav a {
 }
 
 nav p {
-    display: flex;
     justify-content: flex-start;
     color: white;
 }
 
 footer {
+    background-color: #131c27;
+    color: white;
+}
+.one {
+    text-align: center;
+    align-content: center;
+    background-image: url("./img/landing-page.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.two {
+    display: flex;
+    justify-content: flex-start;
+    background-image: url("./img/new-york-page.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+.three {
     background-color: #131c27;
     color: white;
 }
