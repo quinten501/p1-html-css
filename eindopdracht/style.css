@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+}
+
+nav {
+    background-color: #131c27;
+    font-family: 'Pattaya', sans-serif;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+nav li {
+    justify-content: flex-end;
+    padding: 0 1rem 0 2rem;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav p {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+
+footer {
+    background-color: #131c27;
+    color: white;
+}
