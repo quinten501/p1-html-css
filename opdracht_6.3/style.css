@@ -1,6 +1,3 @@
-* {
-    margin: ;
-}
 nav a {
     position: relative;
     text-decoration: none;
@@ -12,13 +9,7 @@ ul {
     display: flex;
     list-style: none;
 }
-.one {
-
-}
 .two {
     display: flex;
     gap: 10px;
-}
-.three {
-
 }

@@ -1,3 +1,36 @@
+/*Telefoon*/
+@media only screen and (max-width: 920px) {
+    nav{
+        flex-direction: column;
+    }
+    nav p{
+        padding-left: 0 !important;
+        text-align: center !important;
+    }
+    ul {
+        padding-right: 0 !important;
+        justify-content: center !important;
+    }
+    .four {
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .fourdot {
+        width: 65vw !important;
+        height: 75vw !important;
+    }
+    .five form {
+        width: 95vw !important;
+    }
+    .five input {
+        padding: 1rem 10rem !important;
+    }
+    footer {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -43,6 +76,7 @@ li a{
     background-image: url("./img/landing-page.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100vw;
     height: 100vh;
     flex-direction: column;
@@ -82,7 +116,6 @@ li a{
     color: white;
     justify-content: center;
     padding-left: 5rem;
-
 }
 .two p {
     margin-bottom: 3rem;
@@ -113,8 +146,8 @@ li a{
 }
 .fourdot {
     position: relative;
-    width: 20rem;
-    height: 25rem;
+    width: 25vw;
+    height: 40vh;
     text-align: center;
     font-size: 1.5rem;
     box-shadow: 0.5rem 0.5rem 1.5rem 0.5rem #0000002f;
@@ -131,7 +164,7 @@ li a{
     height: 2.5rem;
 }
 .fourdot h2 {
-    padding: 2rem 0 4rem 0;
+    padding: 0.5rem 0 4rem 0;
 }
 .four {
     display: flex;
@@ -158,7 +191,7 @@ li a{
     padding: 0;
     padding-top: 3rem;
     font-size: 1.8rem;
-    border-radius: 2.5rem 2.5rem 0 0;
+    border-radius: 2.5rem;
 
 }
 .fivedot {
@@ -191,4 +224,9 @@ footer {
     background-color: #131c27;
     color: white;
     font-size: 1.5rem;
+}
+.footerdot {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
 }
