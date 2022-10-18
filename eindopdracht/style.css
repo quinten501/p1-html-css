@@ -3,68 +3,191 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
-
-body{
-    font-size: 2rem;
-}
-
-h1,h2,h3,h4,h5,h6,p {
+h1,h2,h3,h4,h5,h6,p,a,label {
     font-family: 'Poppins', sans-serif;
 }
-
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #131c27;
-    font-family: 'Pattaya', sans-serif;
-    height: 7vh;
-
-}
-nav ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: flex-end;
-}
-nav li {
-    padding: 0 1rem 0 2rem;
-}
-nav a {
     color: white;
-    text-decoration: none;
+    height: 10rem;
 }
-
 nav p {
-    justify-content: flex-start;
-    color: white;
+    font-family: 'Pattaya', sans-serif;
+    padding-left: 10rem;
+    font-size: 3rem;
 }
-
+ul {
+    display: flex;
+    list-style: none;
+    padding-right: 10rem;
+    font-size: 2rem;
+}
+li a{
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    color: white;
+    padding-left: 4rem;
+}
 footer {
     background-color: #131c27;
     color: white;
 }
 .one {
-    text-align: center;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("./img/landing-page.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.one a{
+    background-color: #5d88bd;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 15rem;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+.one a:hover {
+    background-color: #4c6e97;
+}
+.one h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.one p {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
 }
 .two {
     display: flex;
-    justify-content: flex-start;
-    background-image: url("./img/new-york-page.png");
+    background-image: url("./img/new-york-page.png"), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(114, 114, 114) 100%);
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
     width: 100vw;
     height: 100vh;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    justify-content: center;
+    padding-left: 5rem;
+}
+.two p {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+}
+.two h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    border-style: none;   
+    border-bottom-style: solid;
+    width: fit-content;
+}
+.two a{
+    background-color: #4c6e97;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 1.5rem;
+    border: none;
+    color: white;
+    text-decoration: none;
 }
 .three {
     background-color: #131c27;
     color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+.fourdot {
+    position: relative;
+    width: 20rem;
+    height: 25rem;
+    text-align: center;
+    font-size: 1.5rem;
+    box-shadow: 0.5rem 0.5rem 1.5rem 0.5rem #0000002f;
+}
+.fourdot span {
+    background-color: #131c27;
+    height: 4.5vh;
+    display: block;
+    text-align: center;
+    padding-top: 0.7rem;
+}
+.fourdot span img {
+    object-fit: contain;
+    height: 2.5rem;
+}
+.fourdot h2 {
+    padding: 2rem 0 4rem 0;
+}
+.four {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 3rem 0;
+}
+.five {
+    background-image: url("./img/contact-mountain.png"), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(114, 114, 114) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+.five form {
+    display: flex;
+    background-color: #131c2783;
+    flex-direction: column;
+    width: 65vw;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    padding-top: 3rem;
+    font-size: 1.8rem;
+    border-radius: 2.5rem 2.5rem 0 0;
+
+}
+.fivedot {
+    padding: 30rem 0;
+
+}
+.five input {
+    width: 20vw;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+}
+.five button {
+    border: none;
+    background-color: #5d88bd;
+    color: white;
+    margin-top: 5rem;
+    padding: 1rem 0;
+    border-radius: 0 0 2.5rem 2.5rem;
+}
+.five button:hover {
+    background-color: #4c6e97;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 7rem 1.5rem 1.5rem;
 }
