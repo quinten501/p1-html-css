@@ -36,10 +36,6 @@ li a{
     color: white;
     padding-left: 4rem;
 }
-footer {
-    background-color: #131c27;
-    color: white;
-}
 .one {
     display: flex;
     justify-content: center;
@@ -78,6 +74,7 @@ footer {
     background-image: url("./img/new-york-page.png"), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(114, 114, 114) 100%);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center; 
     width: 100vw;
     height: 100vh;
     flex-direction: column;
@@ -85,6 +82,7 @@ footer {
     color: white;
     justify-content: center;
     padding-left: 5rem;
+
 }
 .two p {
     margin-bottom: 3rem;
@@ -123,7 +121,7 @@ footer {
 }
 .fourdot span {
     background-color: #131c27;
-    height: 4.5vh;
+    height: 5.5vh;
     display: block;
     text-align: center;
     padding-top: 0.7rem;
@@ -164,7 +162,7 @@ footer {
 
 }
 .fivedot {
-    padding: 30rem 0;
+    padding-top: 20rem;
 
 }
 .five input {
@@ -189,5 +187,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 7rem 1.5rem 1.5rem;
+    padding: 1.5rem 7rem 1.5rem 2rem;
+    background-color: #131c27;
+    color: white;
+    font-size: 1.5rem;
 }
